@@ -36,3 +36,47 @@ This task focuses on preparing a clean, feature-rich dataset for fraud detection
 **Install via:**  
 ```bash
 pip install -r requirements.txt
+
+
+
+
+# Fraud Detection – Task 2 (Interim-2)
+
+This repository contains the **Task 2 modeling notebook** for the 10 Academy AI Mastery project.  
+The goal is to **train and evaluate models** for detecting fraudulent e-commerce transactions.
+
+---
+
+## Project Structure
+
+```
+
+fraud-detection/
+├── notebooks/
+│   └── modeling_task2.ipynb   
+├── models/                    
+├── README.md                  
+
+```
+## Task 2 Workflow
+
+1. **Load Processed Data**  
+2. **Select Features**: numeric + small categorical features (`purchase_value`, `age`, `hour_of_day`, `day_of_week`, `time_since_signup`, `sex`)  
+3. **Train-Test Split** (stratified)  
+4. **Handle Imbalance**: SMOTE applied on training set  
+5. **Model Training**: Logistic Regression (baseline) and Random Forest (selected)  
+6. **Evaluation Metrics**: F1-Score, AUC-PR, Confusion Matrix  
+
+---
+
+## Notes
+
+- Random Forest outperformed Logistic Regression on F1-Score and AUC-PR.  
+- High-cardinality features (IP, device, browser, source) were dropped to save memory.  
+- Small categorical features were label-encoded.  
+
+
+```
+
+=======
+
