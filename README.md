@@ -38,9 +38,8 @@ This task focuses on preparing a clean, feature-rich dataset for fraud detection
 pip install -r requirements.txt
 
 
-Sure! Here’s a **short, clean, GitHub-friendly `README.md`** for your Task 2 branch:
 
-```markdown
+
 # Fraud Detection – Task 2 (Interim-2)
 
 This repository contains the **Task 2 modeling notebook** for the 10 Academy AI Mastery project.  
@@ -78,4 +77,6 @@ fraud-detection/
 
 
 ```
+
+=======
 
