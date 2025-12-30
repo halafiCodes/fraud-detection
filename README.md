@@ -77,6 +77,38 @@ fraud-detection/
 
 
 ```
+# Task 3: SHAP Explainability for Fraud Detection
+
+## Overview
+
+This task focuses on **model explainability** for the best fraud detection model from Task 2. The goal is to understand what drives the model's predictions and provide actionable insights for the business.
+
+The notebook `notebooks/shap-explainability.ipynb` contains:
+
+- Built-in **feature importance** extraction and visualization  
+- **SHAP analysis** for global and local explanations  
+- **Waterfall plots** for True Positive (TP), False Positive (FP), and False Negative (FN) cases  
+- Comparison between **built-in feature importance** and **SHAP importance**  
+- **Interpretation of model logic** (global vs. local)  
+- **Actionable business recommendations** based on insights
+
+---
+
+## Dependencies
+
+The notebook requires the following Python packages:
+
+- `pandas`  
+- `numpy`  
+- `matplotlib`  
+- `joblib`  
+- `shap`
+
+Install missing packages using pip:
+
+```bash
+pip install pandas numpy matplotlib joblib shap
 
 =======
+
 
